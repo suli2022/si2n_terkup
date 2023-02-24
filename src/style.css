@@ -1,0 +1,29 @@
+/*
+* File: style.css
+* Author: Erős István
+* Copyright: 2023, Erős István
+* Group: Szoft I-2 N
+* Date: 2023-02-23
+* Github: https://github.com/erosistvan/
+* Licenc: GNU GPL
+*/
+
+footer {
+    background-color: aqua;
+    padding: 3px;
+    text-align: center;
+    position: fixed;
+    top: 20px;
+    right: -250px;
+    width: 600px;
+    transform: rotate(45deg);
+    font-size: 10px;
+    border-top: 3px solid red;
+    border-bottom: 3px solid green;
+}
+
+.container {
+    background-image: linear-gradient(aqua, rgb(201, 201, 248));
+    margin-top: 10px;
+    border-radius: 5px;
+}
